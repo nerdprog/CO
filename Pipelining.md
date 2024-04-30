@@ -32,6 +32,24 @@ Pipeline Hazards: These are circumstances in which interdependencies or conflict
 **Pipeline Stalls and Bubbles:** These phenomena cause a brief pause in the execution of instructions and may lower throughput when hazards are not immediately resolved.
 
 
+
+## OPCODE AND OPERAND 
+opcode and operand are two fundamental components of machine language instructions that dictate what operations the computer's CPU should perform.
+
+**Opcode (Operation Code):**
+The opcode is a part of a machine language instruction that specifies the operation to be performed. 
+
+**Operand**
+The operand is the part of the machine instruction that specifies the data or the addresses of the data on which the operation (defined by the opcode) should be performed.
+
+**Example of Opcode and Operand**
+
+##Add R1,R2,R3##
+
+*Opcode:* ADD – Tells the CPU to add the contents of two registers.
+
+*Operands:* R1, R2, R3 – In this case, R2 and R3 are the source operands whose values are to be added, and R1 is the destination operand where the result of the addition will be stored.
+
 ## Addressing modes:
 In computer architecture, addressing modes determine how the processor accesses operands specified by the instruction in a program. Different addressing modes allow instructions to operate directly on constants, registers, or memory addresses. When discussing addressing in the context of pipelined processors, it's important to consider how addressing modes affect the pipeline stages and potential hazards. Here are some common addressing modes, along with their implications in a pipelined architecture:
 
